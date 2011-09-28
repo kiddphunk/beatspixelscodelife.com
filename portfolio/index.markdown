@@ -22,8 +22,6 @@ altdate: "01 FEBRUARY 2010"
 resport: true
 fbcomments: false
 ---
-<img class='feedimg' src='{{page.topimage}}'>
-
 [Launch portfolio](/portfolio/2009/)
 
 
