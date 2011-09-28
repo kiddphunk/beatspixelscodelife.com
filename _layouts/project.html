@@ -1,0 +1,143 @@
+---
+layout: post
+---
+
+
+<div class="span-6">
+
+	<div class="toolbox" style="background-color:#{{page.bgcolor}}">
+	    {% if page.tags %}
+            <h5>TAGS</h5>
+	        {% for tag in page.tags %}
+                <a class="tag_{{ tag | replace:' ', '-' | downcase }}" href="/tags/{{ tag | replace:' ', '-' | downcase }}">{{ tag }}</a>
+            {% endfor %}
+            <br>
+        {% endif %}
+	    {% if page.tools %}
+            <h5>TOOLS</h5>
+            <!--
+            {{page.tools | array_to_sentence_string}}
+            -->
+	        {% for tool in page.tools %}
+                {{tool}}<br>
+            {% endfor %}            
+        {% endif %}
+	    {% if page.print or page.web%}
+            <h5>SELECTED PRESS</h5>
+        {% endif %}
+	    {% if page.print %}
+            <div class='pressitem'>print</div>
+	        {% for p in page.print %}
+                {{p}}<br>
+            {% endfor %}
+        {% endif %}
+	    {% if page.web %}
+            <div class='pressitem'>web</div>
+	        {% for p in page.web %}
+                {{p}}<br>
+            {% endfor %}
+        {% endif %}
+	    {% if page.credits %}
+            <h5>CREDITS</h5>
+	        {% for credit in page.credits %}
+                {{credit}}<br>
+            {% endfor %}
+        {% endif %}
+	</div>
+
+    {% if page.shoutout %}
+        <div class='shoutoutframe' style="background-color:#{{page.bgcolor}}">
+		    <p class="large shoutout justright">&#8220;{{page.shoutout}}&#8221;</p>
+	    </div>
+    {% endif %}
+
+    {% if page.comments %}
+        <p></p>
+    	<blockquote>
+        	<p>
+                {{page.comments}}
+        	</p>
+    	</blockquote>
+    {% endif %}
+
+	{% if page.track %}
+		<!-- The jPlayer div must not be hidden. Keep it at the root of the body element to avoid any such problems. -->
+		<div id="jquery_jplayer_1" class="cp-jplayer"></div>
+
+		<div class="prototype-wrapper"> <!-- A wrapper to emulate use in a webpage and center align -->
+
+
+			<!-- The container for the interface can go where you want to display it. Show and hide it as you need. -->
+
+			<div id="cp_container_1" class="cp-container">
+				<div class="cp-buffer-holder"> <!-- .cp-gt50 only needed when buffer is > than 50% -->
+					<div class="cp-buffer-1"></div>
+					<div class="cp-buffer-2"></div>
+				</div>
+				<div class="cp-progress-holder"> <!-- .cp-gt50 only needed when progress is > than 50% -->
+					<div class="cp-progress-1"></div>
+					<div class="cp-progress-2"></div>
+				</div>
+				<div class="cp-circle-control"></div>
+				<ul class="cp-controls">
+					<li><a href="#" class="cp-play" tabindex="1">play</a></li>
+					<li><a href="#" class="cp-pause" style="display:none;" tabindex="1">pause</a></li> <!-- Needs the inline style here, or jQuery.show() uses display:inline instead of display:block -->
+				</ul>
+			</div>
+
+        	<p class='trackcomment'>
+                {{page.tracknote}}
+        	</p>
+		</div>
+		
+	<script type="text/javascript">
+	    $(document).ready(function(){
+			var myCirclePlayer = new CirclePlayer("#jquery_jplayer_1",
+			{
+				m4a: "{{page.track}}",
+			}, {
+				cssSelectorAncestor: "#cp_container_1"
+			});
+	    });
+	</script>
+{% endif %}
+</div>
+
+<div class="span-13 last">
+    {% if page.topimage %}
+        <div class="prepend-1 span-11 last topimage" >
+            {% if page.topimagelink %}                
+    		    <a href='{{page.topimagelink}}'><img src='{{page.topimage}}'></a>
+            {% else if page.topimage %}                
+                <img src='{{page.topimage}}'>
+            {% else %}
+                <img src='http://kiddphunk.com/images/projects/generic/letter.jpg'>
+	        {% endif %}
+    	</div>
+	{% endif %}
+
+    {% if page.topnote %}
+        <p></p>
+        <div class="prepend-1 span-11 topnote last">
+            <p>{{page.topnote}}</p>
+        </div>
+    {% endif %}
+
+    <div class="prepend-1 span-11 last">
+        <p></p>
+        {{content}}
+    </div>
+
+    <div class="prepend-1 span-11 last" >
+    </div>      
+    
+    {% if page.note %}
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div class="prepend-1 span-11 topnote last" >
+            <p>{{page.note}}</p>
+    	</div>
+	{% endif %}
+    
+</div>
+
