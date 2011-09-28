@@ -1,6 +1,5 @@
 _site/*
 test/*
-portfolio/*
 .sass-cache/*
 bin/*
 tmp/*
