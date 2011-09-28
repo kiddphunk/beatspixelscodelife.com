@@ -1,45 +1,47 @@
 ---
 published: true
-title: a visual resume
+title: an interactive portfolio visualization
 layout: project
-category: rants
+category: projects
 tags:
     - blog
     - pixels
+    - code
     - life
     - datavis
-tools: [Photoshop]
-bgcolor: 00ae00
-image: http://kiddphunk.com/images/projects/resume/resume.jpg
-topimage: http://kiddphunk.com/images/projects/resume/ian_timourian_resume_Fall2011mini.jpg
-topimagelink: /resume/ian_timourian_resume_Fall2011.png
-bottomimage: /images/projects/resume/resumedetail.jpg
-shoutout: "I finally decided to recast my resume with more data visualization&mdash;I am, after all, an Information Visualist."
+tools: [jQuery, Google App Engine]
+bgcolor: 999999
+image: /images/projects/portfolio/portfolio.jpg
+topimage: /images/projects/portfolio/portfolio_mini.jpg
+topimagelink: /portfolio/2009/
+bottomimage: /images/projects/portfolio/portfoliodetail.jpg
+shoutout: "I finally decided to create an interactive portfolio visualization that would satisfy my OWN curiosity as to the overall landscape of projects I have worked on over the years."
 sitename: bpcl
 aboutpage: true
 altdate: "01 FEBRUARY 2010"
 resport: true
+fbcomments: false
 ---
+<img class='feedimg' src='{{page.topimage}}'>
 
-[View PDF](/images/resume/ian_timourian_resume_Fall2011.pdf)
-
-
-Every few years I will pull up my previous resume and perform the typical update with my latest jobs, skills, etc. I have always maintained a one-page resume; as new skills are acquired and pockets of specializations form and disperse, I take it as an information design challenge to concisely depict what exactly it is that I do.
-
-Since around 2004 or so I have maintained two resumes: 
+[Launch portfolio](/portfolio/2009/)
 
 
-* a [traditional black/white](/resume/ian_timourian_resume_0109.pdf) (admittedly *laboriously* designed)
+I finally decided to create an interactive portfolio visualization that would satisfy my **own** curiosity as to the overall landscape of projects I have worked on over the years.
 
-* a [visual timeline](/resume/ian_timourian_visual_resume_0109.jpg), depicting programming languages, location, work, etc.
+As I am constantly expanding my skills, I reached a point where I no longer truly discern discreet boundaries between my various interests: Information Visualization, Application / Interface Design + Coding, Graphic Design, Interaction Design, Information Architecture, Music, Art, etc.
 
 
-While the former was what I sent around when needed, it is the latter format that I always thought had the potential for far more stories to tell. 
+The portfolio aimed to be unique, showcasing my Javascript development skills alongside my design ability, and consists of four main sections:
 
-For example, I love to look at how my programming languages and toolkits of choice have evolved and proceeded over the years; most people would find it impossible to build up a mental map of that information just by looking at a traditional format.
+<img class="spanimage" src="/images/projects/portfolio/legend.jpg">
 
-![combined resumes](/images/projects/resume/combine.jpg)
+* **Navigation** provides pre-selected views of the portfolio (e.g. 'Developer', 'Education').
 
-So this year I hit a brick wall when I dusted off the Photoshop file &mdash; my old format could no longer transmit how I wanted to be perceived and I finally decided to recast my resume with more data visualization&mdash;I am, after all, an Information Visualist.
+* **Dropdown** menu of metadata tags allows selection from all project metadata (e.g. 'Languages', 'Role').
 
-To keep the task manageable, I limited myself to the challenge of combining my previous two expressions of curriculum vitae, rather than opt for a complete redesign.
+* **Metadata** allows for a dynamic visualization of the interconnected nature of my various projects and interests.
+
+* **Details** are provided for each project as well as a gallery that provides related images.
+
+[Launch portfolio](/portfolio/2009/)
