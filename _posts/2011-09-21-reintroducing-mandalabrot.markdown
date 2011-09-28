@@ -20,14 +20,9 @@ bottomimage: /images/projects/sheep/sheepdetail.jpg
 topnote: ""
 shoutout: ""
 ---
-<img class='feedimg' src='{{page.topimage}}'>
+<img class='feedimg' src='http://kiddphunk.com{{page.topimage}}'>
 
 http://www.subblue.com/blog/2009/7/14/fractal_explorer
-
-
-about - delicious, soundcloud, vimeo, flickr, github, twitter
-
-
 generative art, design, music
 
 

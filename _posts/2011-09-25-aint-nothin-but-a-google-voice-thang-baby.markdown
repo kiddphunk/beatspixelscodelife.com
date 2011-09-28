@@ -18,6 +18,8 @@ sitename: kiddphunk
 fbcomments: true
 halfsize: true
 ---
+<img class='feedimg' src='http://kiddphunk.com{{page.topimage}}'>
+
 *"One two three and to the fo'* / 
 *Snoop Doggy Dogg and Dr. Dre is at the do'* / 
 *Ready to make an entrance so back on up* / 

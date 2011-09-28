@@ -22,7 +22,7 @@ sitename: kiddphunk
 fbcomments: false
 aboutpage: true
 ---
-<img class='feedimg' src='{{page.topimage}}'>
+<img class='feedimg' src='http://kiddphunk.com{{page.topimage}}'>
 
 [View project](http://mandalabrot.net/delicious) / [(PDF)](/images/projects/delicious/del.icio.us.discover.pdf)
 

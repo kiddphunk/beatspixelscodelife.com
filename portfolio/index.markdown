@@ -11,10 +11,10 @@ tags:
     - datavis
 tools: [jQuery, Google App Engine]
 bgcolor: 999999
-image: /images/projects/portfolio/portfolio.jpg
-topimage: /images/projects/portfolio/portfolio_mini.jpg
+image: http://kiddphunk.com/images/projects/portfolio/portfolio.jpg
+topimage: http://kiddphunk.com/images/projects/portfolio/portfolio_mini.jpg
 topimagelink: /portfolio/2009/
-bottomimage: /images/projects/portfolio/portfoliodetail.jpg
+bottomimage: http://kiddphunk.com/images/projects/portfolio/portfoliodetail.jpg
 shoutout: "I finally decided to create an interactive portfolio visualization that would satisfy my OWN curiosity as to the overall landscape of projects I have worked on over the years."
 sitename: bpcl
 aboutpage: true
@@ -34,7 +34,7 @@ As I am constantly expanding my skills, I reached a point where I no longer trul
 
 The portfolio aimed to be unique, showcasing my Javascript development skills alongside my design ability, and consists of four main sections:
 
-<img class="spanimage" src="/images/projects/portfolio/legend.jpg">
+<img class="spanimage" src="http://kiddphunk.com/images/projects/portfolio/legend.jpg">
 
 * **Navigation** provides pre-selected views of the portfolio (e.g. 'Developer', 'Education').
 

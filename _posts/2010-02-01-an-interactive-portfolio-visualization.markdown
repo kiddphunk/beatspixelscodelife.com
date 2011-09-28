@@ -19,7 +19,7 @@ shoutout: "I finally decided to create an interactive portfolio visualization th
 sitename: kiddphunk
 fbcomments: false
 ---
-<img class='feedimg' src='{{page.topimage}}'>
+<img class='feedimg' src='http://kiddphunk.com{{page.topimage}}'>
 
 [Launch portfolio](/portfolio/2009/)
 
