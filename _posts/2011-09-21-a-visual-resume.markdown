@@ -10,15 +10,14 @@ tags:
     - datavis
 tools: [Photoshop]
 bgcolor: 00ae00
-image: /images/projects/resume/resume.jpg
-topimage: /images/projects/resume/ian_timourian_resume_Fall2011mini.jpg
+image: http://kiddphunk.com/images/projects/resume/resume.jpg
+topimage: http://kiddphunk.com/images/projects/resume/ian_timourian_resume_Fall2011mini.jpg
 topimagelink: http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2011.png
-bottomimage: /images/projects/resume/resumedetail.jpg
+bottomimage: http://kiddphunk.com/images/projects/resume/resumedetail.jpg
 shoutout: "I finally decided to recast my resume with more data visualization&mdash;I am, after all, an Information Visualist."
-sitename: kiddphunk
 fbcomments: false
 ---
-<img class='feedimg' src='http://kiddphunk.com{{page.topimage}}'>
+<img class='feedimg' src='{{page.topimage}}'>
 
 
 [View my current (2011) resume (PDF)](http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2011.pdf)

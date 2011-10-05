@@ -9,7 +9,7 @@
        {% else %}
            {% include bpcl/header_slim.html %}
        {% endif %}
-    <h3><em>Information Visualization + Interface Design</em></h3>
+    <h3><em>{% if page.tagline%}{{page.tagline}}{% else%}explorations in multi-dimensional digital creativity.{% endif %}</em></h3>
 	{% if page.resport %}
 		<div class='resport'>
 			<h3>&raquo;&nbsp;<a href="/resume#article">resume</a></h3>

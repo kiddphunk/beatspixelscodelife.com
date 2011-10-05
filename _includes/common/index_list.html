@@ -1,11 +1,15 @@
    <li class='post'>
-       <a href="http://kiddphunk.com{{ post.url }}#article">
+     {% if post.badge != 'comingsoon' %}
+       <a href="{{ post.url }}#article">
+     {% endif %}
            {% if post.image %}           	
-             <img class='indeximg {% if post.halfsize %}halfsize{%endif%}' src='http://kiddphunk.com{{post.image}}' style="border-top:0px solid #{{post.bgcolor}}">
+             <img class='indeximg {% if post.halfsize %}halfsize{%endif%}' src='{{post.image}}' style="border-top:0px solid #{{post.bgcolor}}">
            {% else %}
              <div class='genericimg' style="border-top:0px solid #{{post.bgcolor}}"></div>
            {% endif %}
+     {% if post.badge != 'comingsoon' %}
        </a>                  
+     {% endif %}
      {% if post.badge == 'comingsoon' %}
          <div class="badgeWrapper">
              <a class="comingsoon" href="">
@@ -13,9 +17,9 @@
                <span>Coming Soon!</span>
              </a>              
           </div>
-       {% endif %}
+     {% endif %}
        
-       <div {% if post.bgcolor %}style='background-color:#{{post.bgcolor}}'{% endif %}  class='postinfo'><a href="http://kiddphunk.com{{ post.url }}#article">{{ post.title }}</a>&#8226;<span>{{ post.date | date_to_long_string }}</span></div>          
+       <div {% if post.bgcolor %}style='background-color:#{{post.bgcolor}}'{% endif %}  class='postinfo'><a href="{{ post.url }}#article">{{ post.title }}</a>&#8226;<span>{{ post.date | date_to_long_string }}</span></div>          
 
        <div class='postcontent' {% if post.bgcolor %}style='background-color:#{{post.bgcolor}}'{% endif %}>
            <div class='innerpostcontent'>

@@ -16,7 +16,6 @@ topimage: http://kiddphunk.com/images/projects/portfolio/portfolio_mini.jpg
 topimagelink: /portfolio/2009/
 bottomimage: http://kiddphunk.com/images/projects/portfolio/portfoliodetail.jpg
 shoutout: "I finally decided to create an interactive portfolio visualization that would satisfy my OWN curiosity as to the overall landscape of projects I have worked on over the years."
-sitename: bpcl
 aboutpage: true
 altdate: "01 FEBRUARY 2010"
 resport: true

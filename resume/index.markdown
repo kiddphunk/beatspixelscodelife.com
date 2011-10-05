@@ -15,7 +15,6 @@ topimage: http://kiddphunk.com/images/projects/resume/ian_timourian_resume_Fall2
 topimagelink: http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2011.png
 bottomimage: http://kiddphunk.com/images/projects/resume/resumedetail.jpg
 shoutout: "I finally decided to recast my resume with more data visualization&mdash;I am, after all, an Information Visualist."
-sitename: bpcl
 aboutpage: true
 altdate: "01 FEBRUARY 2010"
 resport: true
