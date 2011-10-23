@@ -18,6 +18,7 @@ bgcolor: a55dda
 shoutout: "Poetry becomes piano soliloquy &mdash; a beautiful mapping into the audio domain is possible, because Stein's unique linguistical algorithms created a corpus with self-similar structure."
 aboutpage: true
 fbcomments: true
+share: true
 js: http://kiddphunk.com/images/projects/visualpoetry/js/picasso.js
 ---
 
@@ -232,7 +233,7 @@ A given word's mapping is calculated first by determining its unique index (the 
     </tr>
 </table>
 
-It is worth commenting on this last value of *21* for Napoleon: I wanted to encode *the length of time/space it took to get to the first occurrence of a word*. If I had defined 'unique word' as the relative index, then Napoleon would have mapped to *9* (as it was the 9th unique word introduced), but I would have lost this time encoding. (In this manner, the longer it takes Stein to get to the first usage of Napoleon, the larger the jump will be.)
+It is worth commenting on this last value of *21* for Napoleon: I wanted to encode *the length of time/space it took to get to the first occurrence of a word*. If I had defined 'unique word' as the relative index, then Napoleon would have mapped to *9* (as it was the 9th unique word introduced), but I would have lost this time encoding. (Put another way: the longer it takes Stein to get to the first usage of Napoleon, the larger the jump will be.)
 
 Now the note determination is a simple calculation:
 
@@ -245,7 +246,7 @@ Obviously the more unique words (and/or the longer the poem) the more overlap th
 
 *Loudness, Lengths, Pauses*
 
-Sentences that end in periods, or contain commas, will result in a bit of pause in the melody, thusly encoding the sentence phrasing into the audio output. 
+Sentences that end in periods, or contain commas, will result in a bit of pause in the melody, thereby encoding the sentence phrasing into the audio output. 
 
 As an extra 'de-robotization' method I inject micro-pauses throughout and shift the note outputs just *slightly* to  sound more humanly produced.
 

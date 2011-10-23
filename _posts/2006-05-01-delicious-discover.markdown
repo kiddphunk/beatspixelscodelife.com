@@ -20,6 +20,7 @@ bottomimage: http://kiddphunk.com/images/projects/delicious/delicious_detail.jpg
 shoutout: "A set of visualizations and explorations into link-spaces in the del.icio.us collaborative bookmarking network."
 fbcomments: false
 aboutpage: true
+share: true
 ---
 <img class='feedimg' src='{{page.topimage}}'>
 

@@ -17,6 +17,7 @@ bottomimage: http://kiddphunk.com/images/projects/resume/resumedetail.jpg
 shoutout: "I finally decided to recast my resume with more data visualization&mdash;I am, after all, an Information Visualist."
 fbcomments: false
 skipindex: true
+share: true
 ---
 <img class='feedimg' src='{{page.topimage}}'>
 

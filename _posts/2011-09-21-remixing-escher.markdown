@@ -13,6 +13,7 @@ topimage: http://kiddphunk.com/images/projects/escher/escher_mini.jpg
 bottomimage: http://kiddphunk.com/images/projects/escher/escherdetail.jpg
 shoutout: "I finally decided to recast my resume with more data visualization&mdash;I am, after all, an Information Visualist."
 fbcomments: false
+share: true
 ---
 <img class='feedimg' src='{{page.topimage}}'>
 

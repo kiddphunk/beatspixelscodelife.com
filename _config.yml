@@ -7,6 +7,6 @@ sitename: bpcl
 feedburner.id: 'beatspixelscodelife/kJuy'
 google_analytics.account: 'UA-288188-6'
 
-#url: http://beatspixelscodelife.com
+commenturl: http://beatspixelscodelife.com
 
 exclude: tmp, test, bin

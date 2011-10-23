@@ -9,6 +9,7 @@ tags:
 bgcolor: b47e50
 shoutout: "A neat glitch just appeared in my Gmail Inbox: one email's previewed contents was incorrect, replacing a name with a different name from a previous email."
 fbcomments: false
+share: true
 ---
 A neat glitch just appeared in my Gmail Inbox: one email's previewed contents was incorrect,
 *replacing a name with a different name from a previous email.*

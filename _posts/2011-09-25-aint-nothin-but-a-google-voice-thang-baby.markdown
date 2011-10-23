@@ -16,6 +16,7 @@ tracknotes: [Not quite there.]
 shoutout: "I propose this as a standard test for end-to-end speech recognition to &#10145; speech synthesis: The 'G' Thang Benchmark."
 fbcomments: true
 halfsize: true
+share: true
 ---
 *"One two three and to the fo'* / 
 *Snoop Doggy Dogg and Dr. Dre is at the do'* / 
