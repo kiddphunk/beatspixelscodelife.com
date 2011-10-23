@@ -5,7 +5,7 @@ paginate: 10
 permalink: pretty
 sitename: bpcl
 feedburner.id: 'beatspixelscodelife/kJuy'
-google_analytics.account: 'UA-288188-6'
+google_analytics_account: 'UA-288188-6'
 
 commenturl: http://beatspixelscodelife.com
 

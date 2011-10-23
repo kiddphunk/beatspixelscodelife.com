@@ -66,11 +66,10 @@
     <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{%if page.sitetitle%}{{page.sitetitle}}{%else%}beats, pixels, code, life{%endif%} | {{ page.title }}" type="application/atom+xml" />
 {% endif %}
 
-{% if site.google_analytics %}
-    <!-- google analytics async -->
+{% if site.google_analytics_account %}
     <script type="text/javascript">
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
+      _gaq.push(['_setAccount', '{{ site.google_analytics_account }}']);
       _gaq.push(['_trackPageview']);
       (function() {
         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
