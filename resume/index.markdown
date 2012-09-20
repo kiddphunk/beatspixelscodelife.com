@@ -12,7 +12,7 @@ tools: [Photoshop]
 bgcolor: 00ae00
 image: http://kiddphunk.com/images/projects/resume/resume.jpg
 topimage: http://kiddphunk.com/images/projects/resume/ian_timourian_resume_Fall2011mini.jpg
-topimagelink: http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2011.png
+topimagelink: http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2012.png
 bottomimage: http://kiddphunk.com/images/projects/resume/resumedetail.jpg
 shoutout: "I finally decided to recast my resume with more data visualization&mdash;I am, after all, an Information Visualist."
 aboutpage: true
@@ -20,7 +20,7 @@ altdate: "01 FEBRUARY 2010"
 resport: true
 ---
 
-[View my current (2011) resume (PDF)](http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2011.pdf)
+[View my current (2012) resume (PDF)](http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2012.pdf)
 
 
 Every few years I will pull up my previous resume and perform the typical update with my latest jobs, skills, etc. I have always maintained a one-page resume; as new skills are acquired and pockets of specializations form and disperse, I take it as an information design challenge to concisely depict what exactly it is that I do.
@@ -43,4 +43,4 @@ So this year I hit a brick wall when I dusted off the Photoshop file &mdash; my 
 
 To keep the task manageable, I limited myself to the challenge of combining my previous two expressions of curriculum vitae, rather than opt for a complete redesign.
 
-[View my current (2011) resume (PDF)](http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2011.pdf)
+[View my current (2012) resume (PDF)](http://beatspixelscodelife.com/resume/ian_timourian_resume_Fall2012.pdf)
