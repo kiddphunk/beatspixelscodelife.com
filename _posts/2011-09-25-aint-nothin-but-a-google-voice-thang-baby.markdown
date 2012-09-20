@@ -21,15 +21,20 @@ share: true
 *"One two three and to the fo'* / 
 *Snoop Doggy Dogg and Dr. Dre is at the do'* / 
 *Ready to make an entrance so back on up* / 
-*'Cause you know we 'bout to rip shit up"*
-
-I love Google Voice. Admittedly, I primarily use it (and GrandCentral before that) as a modern-day door opener.
-[(More on that below.)](#footnote)
+*'Cause you know we 'bout to rip shit up" - Snoop & Dr. Dre	*
 
 
-I recently got the urge to call up my Google Voice number and leave a message to see how well it would translate the 'a cappella' version of [*Nothin' but a 'G'Thang*](http://en.wikipedia.org/wiki/Nuthin'_but_a_'G'_Thang). 
+**"Like cos I was like bath and stuff like that..." - GV
 
-**The way I see it, there must come a time when not only will this be nearly translatable, but I will receive voice-analysis meta-data along with the transcription that will indicate that indeed, Snoop and Dr. Dre just left a message for me. **
+I love Google Voice. Admittedly, I primarily use it (and GrandCentral before that) as a modern-day door opener 
+[(more on that below)](#footnote).
+
+
+I recently got the urge to call up my GV number and leave a message to see how well it would translate the 'a cappella' version of [*Nothin' but a 'G'Thang*](http://en.wikipedia.org/wiki/Nuthin'_but_a_'G'_Thang). 
+
+**The way I see it...**
+
+there must come a time when not only will this be nearly translatable, but I will receive voice-analysis meta-data along with the transcription that will indicate that indeed, Snoop and Dr. Dre just left a message for me.
 
 **I could then take the high-fidelity transcription and use it to generate a high-fidelity vocal rendering, using a pair of $.99-cent OS X voice-synthesis packs I purchased on iTunes that provide me with accurate vocal emulations of the two famous MCs.**
 
