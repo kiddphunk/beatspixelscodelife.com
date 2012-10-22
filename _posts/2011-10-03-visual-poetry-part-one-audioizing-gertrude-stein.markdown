@@ -10,7 +10,7 @@ tags:
     - code
     - life
     - datavis
-tools: [Python, Natural Language Toolkit (NLTK), Python MIDI Package]
+tools: [Python, Natural Language Toolkit (NLTK), EchoNest Remix API]
 image: http://kiddphunk.com/images/projects/visualpoetry/wouldhelikeit1.jpg
 tracks: [http://kiddphunk.com/images/projects/visualpoetry/mp3/a4_v12_picasso120_abs.mp3]
 tracknotes: [The result- A Picasso Soliloquy]
@@ -27,9 +27,9 @@ js: http://kiddphunk.com/images/projects/visualpoetry/js/picasso.js
 
 This is *Part One* of a three-part series on visualizing poetry:
 
-* *Part One:* What does the shape of Gertrude Stein's poetry **sound** like?
-* *Part Two:* What does the shape of Gertrude Stein's poetry **look** like?
-* *Part Three:* Formal release of the VisualPoetry source code on github.
+* *Part One:* What does Gertrude Stein's poetry **sound** like?
+* *Part Two:* What does Gertrude Stein's poetry **look** like?
+* *Part Three:* An analysis of other poems and a formal release of the VisualPoetry source code on github.
 
 &nbsp;
 Abstract
@@ -73,7 +73,7 @@ The Process
 ===========
 
 The parser and music generator are written in Python, utilizing the [Natural Language Toolkit](http://nltk.org) for language analysis, and
-the [Python MIDI Package](http://pypi.python.org/pypi/midi/0.2.1) for MIDI output/generation.
+the [EchoNest Remix API](http://code.google.com/p/echo-nest-remix) for MIDI output/generation.
 
 The process that is utilized is rather straight-forward and is illustrated in the diagram below:
 
