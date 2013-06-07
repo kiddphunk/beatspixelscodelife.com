@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: the ego and the self
 layout: project
 category: art
