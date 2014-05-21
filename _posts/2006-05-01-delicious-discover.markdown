@@ -13,6 +13,11 @@ tools: [Processing (Java), Perl, CSS/HTML, Photoshop, delicious.com]
 print: [SEED Magazine • 2006, Visual Complexity - Mapping Patterns of Information • 2011]
 web: [visualcomplexity.com • 2006, infosthetics.com • 2006, NOTCOT.org • 2006]
 bgcolor: 82298d
+iid: delicious
+parallaximage: /images/delicious_parallax.png
+parallaxoffset: 0 
+parallaxduration: 800
+parallaxpercent: 50
 image: http://kiddphunk.com/images/projects/delicious/delicious.jpg
 topimage: http://kiddphunk.com/images/projects/delicious/delicious_mini.jpg
 topimagelink: http://mandalabrot.net/delicious/

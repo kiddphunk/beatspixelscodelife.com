@@ -9,15 +9,22 @@ tags:
     - life
 tools: [Google Voice, OS X Speech Synthesis, Ableton Live]
 bgcolor: 5c3030
-image: http://kiddphunk.com/images/projects/gvthang/gvthang.jpg
+image: http://kiddphunk.com/images/projects/gvthang/gvthang.jpg 
+iid: gvthang
+parallaximage: http://kiddphunk.com/images/projects/gvthang/gvthang_parallax.png
+parallaxoffset: 0
+parallaxduration: 300
+parallaxpercent: 25
+topimage: http://kiddphunk.com/images/projects/gvthang/gvthang.jpg 
 bottomimage: http://kiddphunk.com/images/projects/gvthang/gvthangdetail.jpg
-tracks: [http://kiddphunk.com/images/projects/gvthang/Nothin'%20but%20a%20'G(oogle%20voice)'%20Thang.mp3]
-tracknotes: [Not quite there.]
 shoutout: "I propose this as a standard test for end-to-end speech recognition to &#10145; speech synthesis: The 'G' Thang Benchmark."
 fbcomments: true
 halfsize: true
 share: true
+tracks: ["http://kiddphunk.com/images/projects/gvthang/Nothin'%20but%20a%20'G(oogle%20voice)'%20Thang.mp3"]
+tracknotes: ["Not quite there."]
 ---
+
 *"One two three and to the fo'* / 
 *Snoop Doggy Dogg and Dr. Dre is at the do'* / 
 *Ready to make an entrance so back on up* / 

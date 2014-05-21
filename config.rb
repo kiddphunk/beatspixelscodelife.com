@@ -5,5 +5,3 @@ images_dir = "css/images"
 javascripts_dir = "js"
 output_style = :expanded
 line_comments = false
-
-

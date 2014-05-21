@@ -27,6 +27,18 @@
   <link rel="icon" type="image/png" href="http://beatspixelscodelife.com/images/icon.png" />
 
 
+  <script type="text/javascript" src="js/TweenMax.min.js"></script>
+  <script type="text/javascript" src="js/plugins/ScrollToPlugin.min.js"></script>
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="js/modernizr.custom.min.js"></script>
+  <script type="text/javascript" src="js/iscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
+  <script type="text/javascript" src="js/demo.js"></script>
+
+  <link href='http://fonts.googleapis.com/css?family=Dosis:200,400,700|PT+Serif:400,700,400italic|Raleway:400,100,200,800,900|Archivo+Narrow:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+
 <!--
     <link rel="stylesheet" media="screen" href="/css/html5reset.css" type="text/css" />
     <link rel="stylesheet" media="screen" href="/css/isotope.css" type="text/css" />
@@ -39,13 +51,71 @@
     <!--[if lt IE 8]><link rel="stylesheet" href="http://kiddphunk.com/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
 
     <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/photoswipe.css" type="text/css" />
-    <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/flow.css" type="text/css" />
+    <!-- <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/flow.css" type="text/css" /> -->
+    <link rel="stylesheet" media="screen" href="/css/flow.css" type="text/css" />
     <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/skin/circle.skin/circle.player.css" type="text/css" />
-
+    <link rel="stylesheet" href="/css/demo.css" type="text/css" />
     <script src="http://kiddphunk.com/js/lib/jquery-1.6.1.min.js"></script>
 
 
     <script type="text/javascript">
+
+        var controller;
+        if (Modernizr.touch) {
+          var myScroll;
+          $(document).ready(function () {
+            // wrap for iscroll
+            $("#content-wrapper")
+              .addClass("scrollContainer")
+              .wrapInner('<div class="scrollContent"></div>');
+
+            // add iScroll
+            myScroll = new IScroll('#content-wrapper', {scrollX: false, scrollY: true, scrollbars: true, useTransform: false, useTransition: false, probeType: 3});
+          
+            // update container on scroll
+          myScroll.on("scroll", function () {
+            controller.update();
+          });
+
+          // overwrite scroll position calculation to use child's offset instead of parents scrollTop();
+          controller.scrollPos(function () {
+            return -myScroll.y;
+          });
+
+          // refresh height, so all is included.
+          setTimeout(function () {
+              myScroll.refresh();
+          }, 0);
+
+            $("#content-wrapper").on("touchend", "a", function (e) {
+              // a bit dirty workaround for links not working in iscroll for some reason...
+              e.preventDefault();
+              window.location.href = $(this).attr("href");
+            });
+
+          // manual set hight (so height 100% is available within scroll container)
+            $(document).on("orientationchange", function () {
+              $("section")
+                .css("min-height", $(window).height())
+                .parent(".scrollmagic-pin-spacer").css("min-height", $(window).height());
+            });
+            $(document).trigger("orientationchange"); // trigger to init
+          });
+          // init the controller
+          controller = new ScrollMagic({
+            container: "#content-wrapper",
+            globalSceneOptions: {
+              triggerHook: "onLeave"
+            }
+          });
+        } else {
+          // init the controller
+          controller = new ScrollMagic({
+            globalSceneOptions: {
+              triggerHook: "onLeave"
+            }
+          });
+        }    
 		/**
 		 * jQuery.browser.mobile (http://detectmobilebrowser.com/)
 		 *

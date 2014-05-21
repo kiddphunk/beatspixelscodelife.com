@@ -8,7 +8,12 @@ tags:
     - pixels
     - life
 bgcolor: 0091d2
+iid: moleskine
 image: http://kiddphunk.com/images/projects/moleskine/moleskine.jpg
+parallaximage: http://kiddphunk.com/images/projects/moleskine/moleskine_parallax.png
+parallaxoffset: 0
+parallaxduration: 300
+parallaxpercent: 25
 shoutout: "Please provide a notebook for those of us with fairly balanced right and left hemispheres &mdash; that is, I desire a Moleskine notebook that is a combination of your Plain and Squared styles."
 fbcomments: false
 share: true

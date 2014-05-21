@@ -1,8 +1,9 @@
 ---
 published: true
-title: visual poetry, part 1 / audioizing gertrude stein
+title: "visual poetry, part 1: audioizing gertrude stein"
 layout: project
 category: projects
+iid: audioizing
 tags:
     - blog
     - beats
@@ -12,14 +13,19 @@ tags:
     - datavis
 tools: [Python, Natural Language Toolkit (NLTK), EchoNest Remix API]
 image: http://kiddphunk.com/images/projects/visualpoetry/wouldhelikeit1.jpg
-tracks: [http://kiddphunk.com/images/projects/visualpoetry/mp3/a4_v12_picasso120_abs.mp3]
-tracknotes: [The result- A Picasso Soliloquy]
-bgcolor: a55dda
+parallaximage: /images/audioizing_parallax.png
+parallaxoffset: 0
+parallaxduration: 800
+parallaxpercent: 50
+topimage: http://kiddphunk.com/images/projects/visualpoetry/wouldhelikeit1.jpg
+bgcolor: 3973d9
 shoutout: "Poetry becomes piano soliloquy &mdash; a beautiful mapping into the audio domain is possible, because Stein's unique linguistical algorithms created a corpus with self-similar structure."
 aboutpage: true
 fbcomments: true
 share: true
 js: http://kiddphunk.com/images/projects/visualpoetry/js/picasso.js
+tracks: ["http://kiddphunk.com/images/projects/visualpoetry/mp3/a4_v12_picasso120_abs.mp3"]
+tracknotes: ["The result- A Picasso Soliloquy"]
 ---
 
 

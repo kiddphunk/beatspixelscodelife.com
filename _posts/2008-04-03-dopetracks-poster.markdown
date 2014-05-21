@@ -14,9 +14,14 @@ tags:
 tools: [Processing (Java), ActionScript]
 credits: [Ron Kurti (final poster design + Flash coding)]
 bgcolor: 666666
+iid: dopetrax
 image: http://kiddphunk.com/images/projects/dopetracks/dopetracks.jpg
+parallaximage: /images/dopetrax_parallax.png
 topimage: http://kiddphunk.com/images/projects/dopetracks/dopetracks_mini.jpg
 topimagelink: http://kiddphunk.com/images/projects/dopetracks/dopetracks_large.jpg
+parallaxoffset: 0 
+parallaxduration: 800
+parallaxpercent: 50
 bottomimage: http://kiddphunk.com/images/projects/dopetracks/dopetracks_detail.jpg
 shoutout: "5,485 names are contained within this visualization on the DopeTracks one-year anniversary poster."
 fbcomments: yes

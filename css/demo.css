@@ -1,0 +1,59 @@
+/*
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'PT Serif', serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+*/
+
+
+.tagindex .shoutout p, .categoryindex .shoutout p, .indexpage .shoutout p {
+	font-family: 'Dosis', sans-serif;
+	/*font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	/*font-family: "Source Sans Pro", Arial, sans-serif;	*/
+}
+h1 {
+	font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+h2 {
+	font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.postinfo,
+#header h3 {
+	font-family: 'Raleway', "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	/*font-family: "Source Sans Pro", Arial, sans-serif;*/
+	/*font-family: 'Dosis', sans-serif;*/
+	/*font-family: 'PT Serif', serif;*/
+	/*font-family: 'Raleway', sans-serif;*/
+	/*font-family: 'Archivo Narrow', sans-serif;*/
+	/*font-family: 'Montserrat', sans-serif;	*/
+}
+.sidea h1, .sideb h1 {
+	font-size:16px;
+}
+#bpcl {
+	font-family: "Source Sans Pro", "HelveticaNeue-Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'Raleway', sans-serif;
+/*	font-family: 'Raleway', sans-serif;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-family: 'Dosis', sans-serif;
+	font-family: 'PT Serif', serif;
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+*/	.post {
+/*		font-family: "Source Sans Pro", Arial, sans-serif;
+		font-family: 'Dosis', sans-serif;
+		font-family: 'PT Serif', serif;
+		font-family: 'Raleway', sans-serif;
+		font-family: 'Archivo Narrow', sans-serif;
+*/		/*font-family: 'Montserrat', sans-serif;*/
+		/*font-family: 'Montserrat', sans-serif;*/
+		margin-left:0;
+	}
+	.postcontent {
+		margin-left:0;
+	}
+}

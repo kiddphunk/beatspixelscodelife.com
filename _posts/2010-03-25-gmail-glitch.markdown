@@ -8,6 +8,12 @@ tags:
     - life
 bgcolor: b47e50
 shoutout: "A neat glitch just appeared in my Gmail Inbox: one email's previewed contents was incorrect, replacing a name with a different name from a previous email."
+iid: gmail
+image: http://kiddphunk.com/images/projects/gmail/gmail_parallax.png
+parallaximage: http://kiddphunk.com/images/projects/gmail/gmail_parallax.png
+parallaxoffset: 0 
+parallaxduration: 800
+parallaxpercent: 50
 fbcomments: false
 share: true
 ---

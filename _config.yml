@@ -1,12 +1,16 @@
-pygments: true
+# Build settings
+sitename: bpcl
+markdown: kramdown
+permalink: pretty
+# highlighter: true
 lsi: false
 paginate: 10
 #baseurl: bpcl
 permalink: pretty
-sitename: bpcl
+url: "http://beatspixelscodelife.com"
 feedburner.id: 'beatspixelscodelife/kJuy'
 google_analytics_account: 'UA-288188-6'
 
 commenturl: http://beatspixelscodelife.com
 
-exclude: tmp, test, bin
+exclude: [tmp, test, bin]

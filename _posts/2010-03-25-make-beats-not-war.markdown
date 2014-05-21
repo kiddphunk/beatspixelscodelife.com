@@ -9,9 +9,14 @@ tags:
     - pixels
 tools: [Google Images, Photoshop]
 bgcolor: a60686
+iid: beatsnotwar
 image: http://kiddphunk.com/images/projects/robot/top.jpg
 topimage: http://kiddphunk.com/images/projects/robot/robot_mini.jpg
 topimagelink: http://kiddphunk.com/images/projects/robot/robot_large.jpg
+parallaximage: /images/robot_parallax.png
+parallaxoffset: 0
+parallaxduration: 800
+parallaxpercent: 50
 bottomimage: http://kiddphunk.com/images/projects/robot/robot_detail.jpg
 shoutout: "This robot has self-assembled completely out of musical instruments (except for the fan mohawk and rocket parts) and she is currently dropping some serious sonic science."
 fbcomments: true

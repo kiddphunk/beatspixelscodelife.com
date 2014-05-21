@@ -1,0 +1,38 @@
+
+#parallax {
+  margin-bottom: 250px;
+  position: relative;
+  overflow: hidden;
+}
+#parallax h3 {
+  font-size: 80px;
+  text-align: center;
+  margin: -40px 0 0 0;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  line-height: 80px;
+}
+#parallax #parallaxbg {
+  position: absolute;
+  height: 900px;
+  top: 50%;
+  width: 100%;
+  margin-top: 150px;
+  /*background-image: url("http://kiddphunk.com/images/projects/robot/robot_large.jpg");*/
+  background-image: url("/images/demo_parallax_bg.png");
+}
+#parallaxbg .top {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background-image: url("/images/demo_parallax_shadow_top.png");
+}
+#parallaxbg .bottom {
+  height: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-image: url("/images/demo_parallax_shadow_bottom.png");
+}
