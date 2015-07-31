@@ -4,3 +4,4 @@ test/*
 bin/*
 tmp/*
 .DS_Store
+npm-debug.log
