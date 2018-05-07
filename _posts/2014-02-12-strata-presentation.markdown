@@ -11,7 +11,7 @@ tags:
     - code
     - life
     - datavis
-tools: [Python, Natural Language Toolkit (NLTK)]
+tools: [Python, Coffeescript, Natural Language Toolkit (NLTK)]
 image: http://kiddphunk.com/images/projects/strata/detail.jpg
 bottomimage: http://kiddphunk.com/images/projects/strata/detail2.jpg
 parallaximage: http://kiddphunk.com/images/projects/strata/strata_parallax.png
