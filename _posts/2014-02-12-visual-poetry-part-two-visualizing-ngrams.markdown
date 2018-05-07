@@ -1,7 +1,7 @@
 ---
 published: false
 title: "part 2: a technique for n-gram visualization"
-layout: project
+layout: projectfull
 category: projects
 tags:
     - blog
@@ -11,24 +11,21 @@ tags:
     - life
     - datavis
 tools: [d3]
+credits: []
+bgcolor: 3c9bd2
+bodyclass: darkbody
+iid: symbiosis
 parallaximage: /images/ngram_parallax.png
 parallaxoffset: 0
 parallaxduration: 800
 parallaxpercent: 50
-image: http://kiddphunk.com/images/projects/visualpoetry/wouldhelikeit1.jpg
-topimage: http://kiddphunk.com/images/projects/visualpoetry/wouldhelikeit1.jpg
-bgcolor: 00b7c2
-shoutout: "Poetry becomes piano soliloquy &mdash; a beautiful mapping into the audio domain is possible, because Stein's unique linguistical algorithms created a corpus with self-similar structure."
-aboutpage: true
+shoutout: "xxxxxxxx"
 fbcomments: true
 share: true
-js: http://kiddphunk.com/images/projects/visualpoetry/js/picasso.js
-tracks: ["http://kiddphunk.com/images/projects/visualpoetry/mp3/a4_v12_picasso120_abs.mp3"]
-tracknotes: ["The result- A Picasso Soliloquy"]
 ---
 
 
-<img class='feedimg' src='{{page.topimage}}'>
+<!-- <img class='feedimg' src='{{page.topimage}}'> -->
 
 This is *Part One* of a three-part series on visualizing poetry:
 
@@ -36,16 +33,18 @@ This is *Part One* of a three-part series on visualizing poetry:
 * *Part Two:* What does Gertrude Stein's poetry **look** like?
 * *Part Three:* An analysis of other poems and a formal release of the VisualPoetry source code on github.
 
+
 &nbsp;
-Abstract
-========
+
+# Abstract
+
 *In this project I investigate a method of turning poetry into music, utilizing the unmistakeable words of Gertrude Stein. Poetry becomes piano soliloquy &mdash; a beautiful mapping into the audio domain is possible, because Stein's unique linguistical algorithms created a corpus with self-similar structure.*
 
 
-
 &nbsp;
-Introduction
-============
+
+# Introduction
+
 When I was living on Maui in 2002, a good friend exposed me to Gertrude Stein by reading me some of her work, and letting me read some of Stein's poetry myself.
 
 It was maddening.
@@ -64,18 +63,16 @@ Hearing Stein herself recite her work, her nuanced rhythms and articulated caden
 Thus began my fascination with visualizing her work so I could appreciate it even deeper.... thank you Megan, and thank you Paul!
 
 
-
 &nbsp;
-The Poem
-========
+
+# The Poem
 
 <div id='picasso_poem' class='link quote center'>Click to view full text of<br><i>IF I TOLD HIM, A Completed Portrait of Picasso</i><br>by Gertrude Stein</div>
 
 
-	
 &nbsp;
-The Process
-===========
+
+# The Process
 
 The parser and music generator are written in Python, utilizing the [Natural Language Toolkit](http://nltk.org) for language analysis, and
 the [EchoNest Remix API](http://code.google.com/p/echo-nest-remix) for MIDI output/generation.
@@ -86,8 +83,8 @@ The process that is utilized is rather straight-forward and is illustrated in th
 
 
 &nbsp;
-The Algorithm
-=============
+
+# The Algorithm
 
 The core question is: *how do we map an arbitrary number of words in an input  text* (with a correspondingly arbitrary subset of unique words) *into a fixed/limited output space* (that of a piano's range, 5-7 octaves).
 
@@ -110,9 +107,10 @@ Every one of these words in the source text is processed and output as a note in
 2. Loudness, lengths, pauses
 3. The tempo of the acoustic phrases
 
+
 &nbsp;
 
-*Note Selection*
+# Note Selection
 
 There are four variables that constrain the note selection:
 
@@ -265,8 +263,8 @@ I encode sentences into melodic phrases containing their own tempo (varying only
 
 
 &nbsp;
-The Result
-==========
+
+# The Result
 
 The end soliloquy is [a quasi-'free-jazz' piece](http://kiddphunk.com/images/projects/visualpoetry/mp3/a4_v12_picasso120_abs.mp3) containing the same self-similarity that the poem does, creating a remarkably listenable and enjoyable translation into musical notes.  It is Stein's unique method of sentence construction that creates the repetition and pattern-reuse that is invaluable when creating music. 
 

@@ -1,0 +1,48 @@
+---
+layout: post
+---
+
+<div class="span-19 last">
+    {% if page.topimage %}
+        <div class="prepend-1 span-11 last topimage" >
+            {% if page.topimagelink %}                
+		    <a href='{{page.topimagelink}}'><img src='{{page.topimage}}'></a>
+            {% else if page.topimage %}                
+                <img src='{{page.topimage}}'>
+            {% else %}
+                <img src='http://kiddphunk.com/images/projects/generic/letter.jpg'>
+	        {% endif %}
+	</div>
+	{% endif %}
+
+    {% if page.topnote %}
+        <p></p>
+        <div class="prepend-1 span-11 topnote last">
+            <p>{{page.topnote}}</p>
+        </div>
+    {% endif %}
+
+    <div class="prepend-1 span-11 last">
+        <p></p>
+        {{content}}
+    </div>
+
+    <div class="prepend-1 span-11 last" >
+    </div>      
+    
+    {% if page.note %}
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <div class="prepend-1 span-11 topnote last" >
+            <p>{{page.note}}</p>
+	</div>
+	{% endif %}
+
+    {% if page.js %}
+		<script>
+			$.getScript('{{page.js}}');
+		</script>
+	{% endif %}
+    
+</div>
+

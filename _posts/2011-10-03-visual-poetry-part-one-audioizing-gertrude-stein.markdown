@@ -1,6 +1,6 @@
 ---
 published: true
-title: "visual poetry, part 1: audioizing gertrude stein"
+title: "the piano soliloquies of gertrude stein"
 layout: project
 category: projects
 iid: audioizing
@@ -17,7 +17,7 @@ parallaximage: /images/audioizing_parallax.png
 parallaxoffset: 0
 parallaxduration: 800
 parallaxpercent: 50
-topimage: http://kiddphunk.com/images/projects/visualpoetry/wouldhelikeit1.jpg
+<!-- topimage: http://kiddphunk.com/images/projects/visualpoetry/wouldhelikeit1.jpg -->
 bgcolor: 3973d9
 shoutout: "Poetry becomes piano soliloquy &mdash; a beautiful mapping into the audio domain is possible, because Stein's unique linguistical algorithms created a corpus with self-similar structure."
 aboutpage: true
@@ -28,14 +28,14 @@ tracks: ["http://kiddphunk.com/images/projects/visualpoetry/mp3/a4_v12_picasso12
 tracknotes: ["The result- A Picasso Soliloquy"]
 ---
 
-<img class='feedimg' src='{{page.topimage}}'>
-
+<!-- <img class='feedimg' src='{{page.topimage}}'> -->
+<!--
 This is *Part One* of a three-part series on visualizing poetry:
 
 * *Part One:* What does Gertrude Stein's poetry **sound** like?
 * *Part Two:* What does Gertrude Stein's poetry **look** like?
 * *Part Three:* An analysis of other poems and a formal release of the VisualPoetry source code on github.
-
+-->
 
 &nbsp;
 

@@ -9,7 +9,7 @@ tags:
     - code
 tools: [Perl, MacOSaiX, Photoshop]
 credits: [Jasmine Ceniceros (source photo)]
-bgcolor: 4d0a00
+bgcolor: 5e48ab
 iid: draves
 image: http://kiddphunk.com/images/projects/sheep/sheep.jpg
 topimage: http://kiddphunk.com/images/projects/sheep/dravesposter_mini.jpg
@@ -29,6 +29,7 @@ share: true
 
 [View the full-sized poster](http://gigapan.org/gigapans/fullscreen/79494)
 
+[View the other posters in this series](http://kiddphunk.com)
 
 Scott Draves, aka Spot.
 

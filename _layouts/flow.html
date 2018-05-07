@@ -1,121 +1,127 @@
 <!doctype html>
 <html lang="en">
-<head>
-  
-  <title>{%if page.sitetitle%}{{page.sitetitle}}{%else%}beats, pixels, code, life{%endif%} | {{ page.title }}</title>
 
-{% if page.description %}
-    <meta name="description" content="{{ page.description }}" />
-{% endif %}
+{% if page.fullscreen %}
+  {% include {{page.fullscreenHTML}} %}
+{% else %}
 
+  <head>
+    
+    <title>{%if page.sitetitle%}{{page.sitetitle}}{%else%}beats, pixels, code, life{%endif%} | {{ page.title }}</title>
 
-
-<!--
-    <link rel="stylesheet" media="screen" href="/css/screen.css" type="text/css" />
--->
-
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta http-equiv="imagetoolbar" content="false" />
-  
-  <meta name="viewport" />
-
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <meta name="format-detection" content="telephone=no" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <link rel="apple-touch-startup-image" href="http://kiddphunk.com/images/startup.png" />
-  <link rel="apple-touch-icon-precomposed" href="http://kiddphunk.com/images/icon.png"/>
-  <link rel="icon" type="image/png" href="http://beatspixelscodelife.com/images/icon.png" />
-
-
-  <script type="text/javascript" src="js/TweenMax.min.js"></script>
-  <script type="text/javascript" src="js/plugins/ScrollToPlugin.min.js"></script>
-  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="js/modernizr.custom.min.js"></script>
-  <script type="text/javascript" src="js/iscroll.js"></script>
-  <script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
-  <script type="text/javascript" src="js/demo.js"></script>
-
-  <link href='http://fonts.googleapis.com/css?family=Dosis:200,400,700|PT+Serif:400,700,400italic|Raleway:400,100,200,800,900|Archivo+Narrow:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+  {% if page.description %}
+      <meta name="description" content="{{ page.description }}" />
+  {% endif %}
 
 
 
-<!--
-    <link rel="stylesheet" media="screen" href="/css/html5reset.css" type="text/css" />
-    <link rel="stylesheet" media="screen" href="/css/isotope.css" type="text/css" />
-    <link rel="stylesheet" media="screen" href="/css/style.css" type="text/css" />
--->
+  <!--
+      <link rel="stylesheet" media="screen" href="/css/screen.css" type="text/css" />
+  -->
 
-    <!-- Framework CSS -->
-    <link rel="stylesheet" href="http://kiddphunk.com/css/blueprint/screen.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="http://kiddphunk.com/css/blueprint/print.css" type="text/css" media="print">
-    <!--[if lt IE 8]><link rel="stylesheet" href="http://kiddphunk.com/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="imagetoolbar" content="false" />
+    
+    <meta name="viewport" />
 
-    <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/photoswipe.css" type="text/css" />
-    <!-- <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/flow.css" type="text/css" /> -->
-    <link rel="stylesheet" media="screen" href="/css/flow.css" type="text/css" />
-    <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/skin/circle.skin/circle.player.css" type="text/css" />
-    <link rel="stylesheet" href="/css/demo.css" type="text/css" />
-    <script src="http://kiddphunk.com/js/lib/jquery-1.6.1.min.js"></script>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-startup-image" href="http://kiddphunk.com/images/startup.png" />
+    <link rel="apple-touch-icon-precomposed" href="http://kiddphunk.com/images/icon.png"/>
+    <link rel="icon" type="image/png" href="http://beatspixelscodelife.com/images/icon.png" />
 
 
-    <script type="text/javascript">
+    <script type="text/javascript" src="js/TweenMax.min.js"></script>
+    <script type="text/javascript" src="js/plugins/ScrollToPlugin.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.min.js"></script>
+    <script type="text/javascript" src="js/iscroll.js"></script>
+    <script type="text/javascript" src="js/jquery.scrollmagic.js"></script>
+    <script type="text/javascript" src="js/parallax.js"></script>
+    <script type="text/javascript" src="js/demo.js"></script>
 
-        var controller;
-        if (Modernizr.touch) {
-          var myScroll;
-          $(document).ready(function () {
-            // wrap for iscroll
-            $("#content-wrapper")
-              .addClass("scrollContainer")
-              .wrapInner('<div class="scrollContent"></div>');
+    <link href='http://fonts.googleapis.com/css?family=Dosis:200,400,700|PT+Serif:400,700,400italic|Raleway:400,100,200,800,900|Archivo+Narrow:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
 
-            // add iScroll
-            myScroll = new IScroll('#content-wrapper', {scrollX: false, scrollY: true, scrollbars: true, useTransform: false, useTransition: false, probeType: 3});
-          
-            // update container on scroll
-          myScroll.on("scroll", function () {
-            controller.update();
-          });
 
-          // overwrite scroll position calculation to use child's offset instead of parents scrollTop();
-          controller.scrollPos(function () {
-            return -myScroll.y;
-          });
 
-          // refresh height, so all is included.
-          setTimeout(function () {
-              myScroll.refresh();
-          }, 0);
+  <!--
+      <link rel="stylesheet" media="screen" href="/css/html5reset.css" type="text/css" />
+      <link rel="stylesheet" media="screen" href="/css/isotope.css" type="text/css" />
+      <link rel="stylesheet" media="screen" href="/css/style.css" type="text/css" />
+  -->
 
-            $("#content-wrapper").on("touchend", "a", function (e) {
-              // a bit dirty workaround for links not working in iscroll for some reason...
-              e.preventDefault();
-              window.location.href = $(this).attr("href");
+      <!-- Framework CSS -->
+      <link rel="stylesheet" href="http://kiddphunk.com/css/blueprint/screen.css" type="text/css" media="screen, projection">
+      <link rel="stylesheet" href="http://kiddphunk.com/css/blueprint/print.css" type="text/css" media="print">
+      <!--[if lt IE 8]><link rel="stylesheet" href="http://kiddphunk.com/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+
+      <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/photoswipe.css" type="text/css" />
+      <!-- <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/flow.css" type="text/css" /> -->
+      <link rel="stylesheet" media="screen" href="/css/flow.css" type="text/css" />
+      <link rel="stylesheet" media="screen" href="http://kiddphunk.com/css/skin/circle.skin/circle.player.css" type="text/css" />
+      <link rel="stylesheet" href="/css/demo.css" type="text/css" />
+      <script src="http://kiddphunk.com/js/lib/jquery-1.6.1.min.js"></script>
+
+
+      <script type="text/javascript">
+
+          var controller;
+          if (Modernizr.touch) {
+            var myScroll;
+            $(document).ready(function () {
+              // wrap for iscroll
+              $("#content-wrapper")
+                .addClass("scrollContainer")
+                .wrapInner('<div class="scrollContent"></div>');
+
+              // add iScroll
+              myScroll = new IScroll('#content-wrapper', {scrollX: false, scrollY: true, scrollbars: true, useTransform: false, useTransition: false, probeType: 3});
+            
+              // update container on scroll
+            myScroll.on("scroll", function () {
+              controller.update();
             });
 
-          // manual set hight (so height 100% is available within scroll container)
-            $(document).on("orientationchange", function () {
-              $("section")
-                .css("min-height", $(window).height())
-                .parent(".scrollmagic-pin-spacer").css("min-height", $(window).height());
+            // overwrite scroll position calculation to use child's offset instead of parents scrollTop();
+            controller.scrollPos(function () {
+              return -myScroll.y;
             });
-            $(document).trigger("orientationchange"); // trigger to init
-          });
-          // init the controller
-          controller = new ScrollMagic({
-            container: "#content-wrapper",
-            globalSceneOptions: {
-              triggerHook: "onLeave"
-            }
-          });
-        } else {
-          // init the controller
-          controller = new ScrollMagic({
-            globalSceneOptions: {
-              triggerHook: "onLeave"
-            }
-          });
-        }    
+
+            // refresh height, so all is included.
+            setTimeout(function () {
+                myScroll.refresh();
+            }, 0);
+
+              $("#content-wrapper").on("touchend", "a", function (e) {
+                // a bit dirty workaround for links not working in iscroll for some reason...
+                e.preventDefault();
+                window.location.href = $(this).attr("href");
+              });
+
+            // manual set hight (so height 100% is available within scroll container)
+              $(document).on("orientationchange", function () {
+                $("section")
+                  .css("min-height", $(window).height())
+                  .parent(".scrollmagic-pin-spacer").css("min-height", $(window).height());
+              });
+              $(document).trigger("orientationchange"); // trigger to init
+            });
+            // init the controller
+            controller = new ScrollMagic({
+              container: "#content-wrapper",
+              globalSceneOptions: {
+                triggerHook: "onLeave"
+              }
+            });
+          } else {
+            // init the controller
+            controller = new ScrollMagic({
+              globalSceneOptions: {
+                triggerHook: "onLeave"
+              }
+            });
+          }    
 		/**
 		 * jQuery.browser.mobile (http://detectmobilebrowser.com/)
 		 *
@@ -132,44 +138,45 @@
 	</script>
 
 
-{% if site.feedburner %}
-    <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{%if page.sitetitle%}{{page.sitetitle}}{%else%}beats, pixels, code, life{%endif%} | {{ page.title }}" type="application/atom+xml" />
-{% endif %}
-
-{% if site.google_analytics_account %}
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '{{ site.google_analytics_account }}']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-{% endif %}
-  </head>
-
-
-
-<!--
-  {% if site.github %}
-    <a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+  {% if site.feedburner %}
+      <link href="http://feeds.feedburner.com/{{ site.feedburner.id }}" rel="alternate" title="{%if page.sitetitle%}{{page.sitetitle}}{%else%}beats, pixels, code, life{%endif%} | {{ page.title }}" type="application/atom+xml" />
   {% endif %}
--->
+
+  {% if site.google_analytics_account %}
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', '{{ site.google_analytics_account }}']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+  {% endif %}
+    </head>
 
 
-<body class="rootWrapper {% if page.bodyclass %}{{page.bodyclass}}{% endif %}" id="{% if site.sitename %}{{site.sitename}}{% else if page.sitename %}{{page.sitename}}{% endif %}">
 
-    <div id="bodyscreen">
-        <div id="wrap">
-            {{ content }}
-        </div>
-    </div>
+  <!--
+    {% if site.github %}
+      <a href="http://github.com/{{ site.github.username }}"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub" /></a>
+    {% endif %}
+  -->
 
-    <script src="http://kiddphunk.com/js/bpcl_min.js"></script>
 
-</body>
+  <body class="rootWrapper {% if page.bodyclass %}{{page.bodyclass}}{% endif %}" id="{% if site.sitename %}{{site.sitename}}{% else if page.sitename %}{{page.sitename}}{% endif %}">
+
+      <div id="bodyscreen">
+          <div id="wrap">
+              {{ content }}
+          </div>
+      </div>
+
+      <script src="http://kiddphunk.com/js/bpcl_min.js"></script>
+
+  </body>
+{% endif %}
 </html>
 
 
