@@ -32,5 +32,4 @@ I was invited to present at the 2014 Strata Data Conference in California; my pr
 <p></p>
 I also displayed a number of data visualizations over two panels at the Data Visualization Lounge (hosted by Microsoft):
 
-<img style='width:100%' src='http://127.0.0.1:4001/images/projects/strata/IMG_2514.JPG'/>
-
+<a href='http://kiddphunk.com/images/projects/strata/IMG_2514.JPG'><img style='width:100%' src='http://kiddphunk.com/images/projects/strata/IMG_2514.JPG'/></a>
