@@ -24,6 +24,7 @@ aboutpage: true
 fbcomments: true
 share: true
 js: http://kiddphunk.com/images/projects/visualpoetry/js/picasso.js
+track: "http://kiddphunk.com/images/projects/visualpoetry/mp3/a4_v12_picasso120_abs.mp3"
 tracks: ["http://kiddphunk.com/images/projects/visualpoetry/mp3/a4_v12_picasso120_abs.mp3"]
 tracknotes: ["The result- A Picasso Soliloquy"]
 ---
