@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: a robota electronica
 layout: project
 category: art
