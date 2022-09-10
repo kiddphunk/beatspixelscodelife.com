@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: ccmixview
 layout: project
 category: projects
