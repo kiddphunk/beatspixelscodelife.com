@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: an open letter to moleskine
 layout: project
 category: rants

@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: a gmail glitch
 layout: project
 category: rants
