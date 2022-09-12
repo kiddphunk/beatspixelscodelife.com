@@ -36,7 +36,7 @@ In the November 2004 issue of WIRED magazine a CD was included (<a href='https:/
 And <i>"in 2005, Creative Commons and Wired Magazine launched The Fine Art of Sampling Contest in which contestants sampled <a href='https://freemusicarchive.org/music/Wired_Magazine/The_WIRED_CD_Rip_Sample_Mash_Share
 '>the tracks from The Wired CD</a> to create their own composition."</i> - <a href='https://en.wikipedia.org/wiki/The_Wired_CD'>wikipedia, The Wired CD</a>
 
-As this was a popular contest that spawned many remixes (and remixes of remixes, and remixes of remixes of remixes...) I became curious to visualize these 16 tracks as they were remixed through time.
+This was hosted on the ccMixter platform, and as this was a popular contest that spawned many remixes (and remixes of remixes, and remixes of remixes of remixes...) I became curious to visualize these 16 tracks as they were remixed through time.
 
 Since a song on ccMixter can both use Creative Commons-licensed songs as source material (as well as allow others to use that song in their own work), the site's songs naturally form a DAG (<a href='https://en.wikipedia.org/wiki/Directed_acyclic_graph'>directed acyclic graph</a>).
 
