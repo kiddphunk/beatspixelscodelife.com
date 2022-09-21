@@ -57,7 +57,7 @@
   "tools":       "Atom, Figma",
   "languages":   "CoffeeScript, JavaScript, three.js, CSS, HTML, Python, React, XML",
   "duration":    "long",
-  "tags":        "UI/UX design, UI/UX development, user interfaces, information visualization, dataprep, AI / machine learning, research and development"
+  "tags":        "UI/UX design, UI/UX development, user interfaces, information visualization, dataprep, AI / machine learning, research/development"
   },
       {
     "name":        "duke",
@@ -97,7 +97,7 @@
     "location":    "Pittsburgh PA",
     "tools":       "Linux, Dev Studio, UNIX, Windows",
     "languages":   "Cplusplus, MFC/Win32, SQL, Java, HTML, sh/tcsh, JavaScript, JSP/Servlets, ASP",
-    "tags":        "user interfaces, information networking, distributed systems, security and cryptography, photography, instant messaging, protocols and policy, cellular and wireless, information systems, computer science, computer engineering, framework architecture"
+    "tags":        "user interfaces, information networking, distributed systems, securitycryptography, photography, instant messaging, protocols and policy, cellular and wireless, information systems, computer science, computer engineering, framework architecture"
   },
     {
     "name":        "tis",
@@ -116,7 +116,7 @@
     "location":    "Balt. Area MD",
     "languages":   "Cplusplus, sh/tcsh",
     "duration":      "long",
-    "tags":        "secret keeping, DNS, security and cryptography, research and development"
+    "tags":        "secret keeping, DNS, security and cryptography, research/development"
   },
   {
     "name":        "davinci",
@@ -190,7 +190,7 @@
     "tools":       "Flex Builder, Coda",
     "languages":   "Flex, ActionScript, XML, RSS",
     "duration":    "long",
-    "tags":        "3rd-party APIs, user interfaces, audio/video interfaces, audio/video streaming, UI/UX design, UI/UX development, social media, widgets, social networks, research and development, framework architecture"
+    "tags":        "3rd-party APIs, user interfaces, audio/video interfaces, audio/video streaming, UI/UX design, UI/UX development, social media, widgets, social networks, research/development, framework architecture"
   },
   {
   "name":        "paxata",
@@ -210,7 +210,7 @@
   "tools":       "Atom, Photoshop",
   "languages":   "CoffeeScript, JavaScript, D3, CSS, HTML, AngularJS",
   "duration":    "long",
-  "tags":        "UI/UX design, UI/UX development, user interfaces, information visualization, dataprep, research and development, framework architecture"
+  "tags":        "UI/UX design, UI/UX development, user interfaces, information visualization, dataprep, research/development, framework architecture"
 },
 {
 "name":        "amazon",
@@ -229,7 +229,7 @@
 "year":        "2012",
 "location":    "Seattle WA",
 "duration":    "short",
-"tags":        "UI/UX design, user interfaces, research and development, framework architecture"
+"tags":        "UI/UX design, user interfaces, research/development, framework architecture"
 },
       {
     "name":        "akamai",
@@ -567,13 +567,13 @@
     "sub-category":"art",
     "year":        "2006",
     "date":        "06",
-    "publications":    "SEED Magazine - Sept 2006, Visual Complexity - 2011",
+    "publications":    "SEED Magazine (2006), Visual Complexity (2011)",
     "links":         [{"blog post": "beatspixelscodelife.com/projects/2006/05/01/delicious-discover/#article",
     "via visualcomplexity.com":"www.visualcomplexity.com/vc/project.cfm?id=334", "via infosthetics.com":"infosthetics.com/archives/2006/06/delicious_discover_graph_visualization.html"}],
     "tools":        "delicious.com, Processing, Photoshop",
     "location":    "Bay Area CA",
     "languages":   "Perl, Java, CSS, HTML, Java/Processing",
-    "tags":       "information visualization, research and development, social networks, social bookmarking",
+    "tags":       "information visualization, research/development, social networks, social bookmarking",
     "numpages":    6
   },
       {
@@ -797,7 +797,7 @@
   "tools":        "Natural Language Toolkit (NLTK)",
   "location":    "Bay Area CA",
   "languages":   "Python, CoffeeScript, D3",
-  "tags":       "information visualization, research and development",
+  "tags":       "information visualization, research/development",
   "numpages":    4
 },
   {
@@ -815,7 +815,7 @@
   "tools":        "ccMixter.org, Flash",
   "location":    "Bay Area CA",
   "languages":   "ActionScript",
-  "tags":       "information visualization, research and development, social networks, audio/video streaming, audio/video interfaces, user interfaces",
+  "tags":       "information visualization, research/development, social networks, audio/video streaming, audio/video interfaces, user interfaces",
   "numpages":    3
 },
     {
@@ -851,7 +851,7 @@
     "tools":       "Processing, ContextFree, Flex Builder",
     "location":    "Bay Area CA",
     "languages":   "Flex, ActionScript, Java, CFDG, Perl, CSS, HTML, Java/Processing",
-    "tags":        "generative art, information visualization, computational creativity, research and development, social networks",
+    "tags":        "generative art, information visualization, computational creativity, research/development, social networks",
     "numpages":    4
   },
   {

@@ -12395,7 +12395,7 @@ function onMsgTableOver() {
 	$("#msg").animate({height:'250px'}, 300);
   else
 	// $("#msg").animate({height:'499px'}, 300);
-    $("#msg").animate({height:'630px'}, 300);
+    $("#msg").animate({height:'580px'}, 300);
 
   $('.tagCountNormal:not(.beats2):not(.pixels2):not(.code2):not(.life2)').css({'color':'#aae'});
 
@@ -12707,7 +12707,7 @@ function createSparks(target_tagname, color) {
         if (tagitemKey == 'pixels') fill = '#f4a3bf';
         if (tagitemKey == 'code') fill = '#a2d5f2';
         if (tagitemKey == 'life') fill = '#b8f39e';
-        $(ob(allSparks[id])).sparkline(sparkVals, {type: 'line', lineColor: fill, fillColor:fill, spotColor:'', minSpotColor:'', maxSpotColor:'', lineWidth:1, width:24, height:10} );
+        $(ob(allSparks[id])).sparkline(sparkVals, {type: 'line', lineColor: fill, fillColor:fill, spotColor:'', minSpotColor:'', maxSpotColor:'', lineWidth:1, width:22, height:10} );
     }
 }
 
