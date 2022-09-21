@@ -12394,7 +12394,6 @@ function onMsgTableOver() {
   if ($(window).height() < 740)
 	$("#msg").animate({height:'250px'}, 300);
   else
-	// $("#msg").animate({height:'499px'}, 300);
     $("#msg").animate({height:'580px'}, 300);
 
   $('.tagCountNormal:not(.beats2):not(.pixels2):not(.code2):not(.life2)').css({'color':'#aae'});
