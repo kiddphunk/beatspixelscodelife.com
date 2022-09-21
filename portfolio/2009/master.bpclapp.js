@@ -12641,7 +12641,6 @@ function createTagCounts() {
       createIfNeeded(allItems, tagname);
       createIfNeeded(tagInfo, tagname);
       if (item[tagname]) {
-        // console.log("item[tagname] "+tagname, item[tagname]);
         var ls = item[tagname].split(',');
         for (i in ls) {
             var tagitem = jQuery.trim(ls[i]);
@@ -12664,20 +12663,15 @@ function createTagCounts() {
             }
             var cpti = cleanpunct(tagitem);
             createIfNeeded(tagInfo[tagname], cpti);
-            // createIfNeeded(tagInfo[tagname][cpti], item.year, 0);
-            // tagInfo[tagname][cpti][item.year]++;
-            console.log("YEAR "+item.year);
             var years = item.year.split(',')
-            if (tagname == 'year') {
-                var y = years[0]
-                if (y == cpti) {
-                    console.log("cpti "+cpti+' '+y);
-                    createIfNeeded(tagInfo[tagname][cpti], y, 0);
-                    tagInfo[tagname][cpti][y]++;
-                }
-            } else {
-                for (year in years) {
-                    var y = years[year]
+            for (year in years) {
+                var y = years[year]
+                if (tagname == 'year') {
+                    if (cpti == y) {
+                        createIfNeeded(tagInfo[tagname][cpti], y, 0);
+                        tagInfo[tagname][cpti][y]++;
+                    }
+                } else {
                     createIfNeeded(tagInfo[tagname][cpti], y, 0);
                     tagInfo[tagname][cpti][y]++;
                 }

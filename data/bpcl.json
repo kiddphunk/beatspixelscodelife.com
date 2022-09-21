@@ -43,7 +43,7 @@
   "name":        "datarobot",
   "title":       "datarobot",
   "organization": "Data Robot",
-  "output":      "design, web application, prototype",
+  "output":      "mockups, web application, prototype",
   "description": [{"Synopsis": "• Created Figma designs for DataPrep and Machine Learning applications. <p>• Worked with Design and Product teams to brainstorm features and solutions.<p><p>• Designed and coded a 3D visualization of all data flowing through the DataRobot system. <p>• Designed and implemented a graph (DAG) framework utilizing yWorks (”graphkit”).<p>• Utilized graphkit and Python to visualize DAG structures of Jupyter notebook cells."}],
   "links":         [{"DataRobot": "datarobot.com"}],
   "roles":       "UI/UX designer, UI/UX developer, information visualist",
@@ -58,7 +58,7 @@
   "languages":   "CoffeeScript, JavaScript, three.js, CSS, HTML, Python, React, XML",
   "duration":    "long",
   "tags":        "UI/UX design, UI/UX development, user interfaces, information visualization, dataprep, AI / machine learning, research and development"
-  },  
+  },
       {
     "name":        "duke",
     "title":       "School of Engineering",
@@ -196,7 +196,7 @@
   "name":        "paxata",
   "title":       "Paxata",
   "organization": "Paxata",
-  "output":      "web application, internal tools",
+  "output":      "mockups, web application, internal tools",
   "description": [{"Synopsis": "Paxata is the industry's first self-service Adaptive Data Preparation™ platform that lets business analysts rapidly connect, explore, transform and combine data with the same freedom they are used to in their analytic discovery.<p>• Responsible for the look-and-feel of the Paxata application.<p>• Coded and designed the UI for the popular Filtergrams™ (filtering histograms) utilizing D3, the visualization-infused data grid, and other components of the system.<p>• Developed UI patterns that became industry-standard concepts across dataprep offerings from subsequent vendors.<p>• Researched and prototyped experimental features and frameworks (data quality...)"}],
   "links":         [{"Paxata": "paxata.com", "UX Awards 2014": "http://userexperienceawards.com/2014-submissions/paxata-adaptive-data-preparation-platform/"}],
   "roles":       "UI/UX designer, UI/UX developer, information visualist",
@@ -515,9 +515,9 @@
     "languages":   "Django, Python, JavaScript, jQuery, Blueprint, CSS, HTML",
     "category":    "pixels,code,life",
     "sub-category":"art",
-    "numpages":    1,
-    "date":        "10",
-    "year":        "2010",
+    "numpages":    2,
+    "date":        "10 (updated 22)",
+    "year":        "2010, 2022",
     "location":    "Bay Area CA",
     "tags":        "UI/UX design, UI/UX development, information visualization"
   },
@@ -1083,6 +1083,19 @@
     "tools":       "Photoshop",
     "location":    "Bay Area CA"
   },
+  {
+"name":        "resume22",
+"title":       "Resume",
+"description": [{"Synopsis": "My curriculum vitae."}],
+"roles":       "information visualist, graphic designer",
+"date":        "10 (updated 22)",
+"year":        "2010,2022",
+"output":        "resume",
+"category":    "pixels",
+"tags": 		"information visualization",
+"tools":       "Photoshop",
+"location":    "Bay Area CA"
+},
       {
     "name":        "tufte",
     "title":       "Tufte Course on Visualization",
@@ -1222,6 +1235,7 @@
     "title":       "Visual Resume",
     "category":    "pixels",
     "description": [{"Synopsis": "A visual resume and data visualization mapping the locations and years I have worked, along with the progression of the programming languages utilized.<p>For this portfolio I streamlined and updated the contents."}],
+    "roles":       "information visualist, graphic designer",
     "output":      "resume, visualization",
     "date":        "03 (updated 09)",
     "year":        "2003,2009",
