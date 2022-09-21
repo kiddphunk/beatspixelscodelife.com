@@ -39,6 +39,26 @@
     "date":        "2024",
     "year":        "2024"
   },
+  {
+  "name":        "datarobot",
+  "title":       "datarobot",
+  "organization": "Data Robot",
+  "output":      "design, web application, prototype",
+  "description": [{"Synopsis": "• Created Figma designs for DataPrep and Machine Learning applications. <p>• Worked with Design and Product teams to brainstorm features and solutions.<p><p>• Designed and coded a 3D visualization of all data flowing through the DataRobot system. <p>• Designed and implemented a graph (DAG) framework utilizing yWorks (”graphkit”).<p>• Utilized graphkit and Python to visualize DAG structures of Jupyter notebook cells."}],
+  "links":         [{"DataRobot": "datarobot.com"}],
+  "roles":       "UI/UX designer, UI/UX developer, information visualist",
+  "sub-roles":    "full-time",
+  "category":    "code, pixels",
+  "sub-category":"work",
+  "numpages":    7,
+  "date":        "20-22",
+  "year":        "2020,2021,2022",
+  "location":    "Bay Area CA",
+  "tools":       "Atom, Figma",
+  "languages":   "CoffeeScript, JavaScript, three.js, CSS, HTML, Python, React, XML",
+  "duration":    "long",
+  "tags":        "UI/UX design, UI/UX development, user interfaces, information visualization, dataprep, AI / machine learning, research and development"
+  },  
       {
     "name":        "duke",
     "title":       "School of Engineering",
@@ -210,26 +230,6 @@
 "location":    "Seattle WA",
 "duration":    "short",
 "tags":        "UI/UX design, user interfaces, research and development, framework architecture"
-},
-{
-"name":        "datarobot",
-"title":       "datarobot",
-"organization": "Data Robot",
-"output":      "design, web application, prototype",
-"description": [{"Synopsis": "• Created Figma designs for DataPrep and Machine Learning applications. <p>• Worked with Design and Product teams to brainstorm features and solutions.<p><p>• Designed and coded a 3D visualization of all data flowing through the DataRobot system. <p>• Designed and implemented a graph (DAG) framework utilizing yWorks (”graphkit”).<p>• Utilized graphkit and Python to visualize DAG structures of Jupyter notebook cells."}],
-"links":         [{"DataRobot": "datarobot.com"}],
-"roles":       "UI/UX designer, UI/UX developer, information visualist",
-"sub-roles":    "full-time",
-"category":    "code, pixels",
-"sub-category":"work",
-"numpages":    7,
-"date":        "20-22",
-"year":        "2020,2021,2022",
-"location":    "Bay Area CA",
-"tools":       "Atom, Figma",
-"languages":   "CoffeeScript, JavaScript, three.js, CSS, HTML, Python, React, XML",
-"duration":    "long",
-"tags":        "UI/UX design, UI/UX development, user interfaces, information visualization, dataprep, AI / machine learning, research and development"
 },
       {
     "name":        "akamai",

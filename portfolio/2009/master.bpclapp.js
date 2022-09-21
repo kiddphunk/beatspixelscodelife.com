@@ -9100,7 +9100,6 @@ function mouseOver(e) {
                 } else {
                     height = options.height;
                 }
-                console.log(this, values)
                 $.fn.sparkline[options.type].call(this, values, options, width, height);
             }
             // jQuery 1.3.0 completely changed the meaning of :hidden :-/
@@ -12642,6 +12641,7 @@ function createTagCounts() {
       createIfNeeded(allItems, tagname);
       createIfNeeded(tagInfo, tagname);
       if (item[tagname]) {
+        // console.log("item[tagname] "+tagname, item[tagname]);
         var ls = item[tagname].split(',');
         for (i in ls) {
             var tagitem = jQuery.trim(ls[i]);
@@ -12664,8 +12664,24 @@ function createTagCounts() {
             }
             var cpti = cleanpunct(tagitem);
             createIfNeeded(tagInfo[tagname], cpti);
-            createIfNeeded(tagInfo[tagname][cpti], item.year, 0);
-            tagInfo[tagname][cpti][item.year]++;
+            // createIfNeeded(tagInfo[tagname][cpti], item.year, 0);
+            // tagInfo[tagname][cpti][item.year]++;
+            console.log("YEAR "+item.year);
+            var years = item.year.split(',')
+            if (tagname == 'year') {
+                var y = years[0]
+                if (y == cpti) {
+                    console.log("cpti "+cpti+' '+y);
+                    createIfNeeded(tagInfo[tagname][cpti], y, 0);
+                    tagInfo[tagname][cpti][y]++;
+                }
+            } else {
+                for (year in years) {
+                    var y = years[year]
+                    createIfNeeded(tagInfo[tagname][cpti], y, 0);
+                    tagInfo[tagname][cpti][y]++;
+                }
+            }
         }
         createIfNeeded(tagInfo['category']);
         createIfNeeded(tagInfo['category']['all'], item.year, 0);
@@ -12675,11 +12691,7 @@ function createTagCounts() {
 }
 
 function createSparks(target_tagname, color) {
-    console.log(allSparks);
-    console.log("???", allSparks[125]);
-    console.log(tagInfo["roles"]["performanceartist"])
     for (id in allSparks) {
-        console.log("ID", id);
       var tagname = allSparks[id].split('_')[1];
       if (target_tagname && target_tagname != tagname) continue;
       var tagitemKey = allSparks[id].split('_')[2];
@@ -12687,8 +12699,7 @@ function createSparks(target_tagname, color) {
       if (!color) color = "#33f";
       var yrs = ['1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008',
                  '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018',
-                 '2019', '2020', '2021'];
-        console.log(tagInfo[tagname][tagitemKey]);
+                 '2019', '2020', '2021', '2022', '2023', '2024'];
         for (y in yrs) {
             if (tagInfo[tagname] && tagInfo[tagname][tagitemKey] && tagInfo[tagname][tagitemKey][yrs[y]]) {
                 var v = tagInfo[tagname][tagitemKey][yrs[y]];
@@ -12702,7 +12713,7 @@ function createSparks(target_tagname, color) {
         if (tagitemKey == 'pixels') fill = '#f4a3bf';
         if (tagitemKey == 'code') fill = '#a2d5f2';
         if (tagitemKey == 'life') fill = '#b8f39e';
-        $(ob(allSparks[id])).sparkline(sparkVals, {type: 'line', lineColor: fill, fillColor:fill, spotColor:'', minSpotColor:'', maxSpotColor:'', lineWidth:1, width:18, height:10} );
+        $(ob(allSparks[id])).sparkline(sparkVals, {type: 'line', lineColor: fill, fillColor:fill, spotColor:'', minSpotColor:'', maxSpotColor:'', lineWidth:1, width:24, height:10} );
     }
 }
 
